@@ -39,7 +39,5 @@ jobs:
           docker push baselmohsen/node-app:${{ github.sha }}
 
       - name: Deploy to Minikube
-        run: |
-          kubectl set image deployment/node-app \
-          node-app=baselmohsen/node-app:${{ github.sha }}
+        run: kubectl set image deployment/node-app node-app=baselmohsen/node-app:${{ github.sha }}
           
