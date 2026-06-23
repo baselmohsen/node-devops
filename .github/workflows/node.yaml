@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Code
@@ -37,3 +37,9 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push baselmohsen/node-app:${{ github.sha }}
+
+      - name: Deploy to Minikube
+        run: |
+          kubectl set image deployment/node-app \
+          node-app=baselmohsen/node-app:${{ github.sha }}
+          
