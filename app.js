@@ -78,7 +78,7 @@ app.get('/', (req, res) => {
     <div class="card">
         <div class="badge">LIVE • DevOps Demo</div>
 
-        <h1>🚀 Node.js DevOps App</h1>
+        <h1>🚀 Node.js DevOps App 🚀🚀</h1>
         <p>Built with CI/CD Pipeline + Kubernetes</p>
 
         <div class="info">
@@ -88,7 +88,7 @@ app.get('/', (req, res) => {
         </div>
 
         <div class="footer">
-            Version: 1.0.0 • Powered by Basel Mohsen
+            Version: 1.0.0 • Powered by Basel Mohsen zaki 🚀
         </div>
     </div>
 </body>
