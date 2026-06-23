@@ -1,11 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
-
 metadata:
   name: node-app
 
 spec:
-  replicas: 3
+  replicas: 5
 
   selector:
     matchLabels:
@@ -19,7 +18,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: yourname/node-devops:v1
-
+        image: baselmohsen/node-app:81bfa2d629dea8a9809c96cae25c323a50f34167
         ports:
         - containerPort: 3000
