@@ -86,7 +86,7 @@ app.get('/', (req, res) => {
 
 <body>
         <div class="box">
-            <h1>🚀 Laravel CRUD DevOps Demo</h1>
+            <h1>🚀 Laravel CRUD DevOps Demo 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀</h1>
 
             <p>
             This application is a simple Product Management System built with Laravel.
