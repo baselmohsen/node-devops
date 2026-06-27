@@ -85,9 +85,14 @@ app.get('/', (req, res) => {
 </head>
 
 <body>
-    <div class="box">
-        <h1>🚀 DevOps Node App v2</h1>
-        <div class="tag">CI/CD + Docker + Kubernetes Ready</div>
+        <div class="box">
+            <h1>🚀 Laravel CRUD DevOps Demo</h1>
+
+            <p>
+            This application is a simple Product Management System built with Laravel.
+            It demonstrates how to create, view, update, and delete products while showcasing a complete DevOps pipeline.
+            </p>     
+    <div class="tag">CI/CD + Docker + Kubernetes Ready</div>
 
         <div class="item">🖥 Hostname: <b>${hostname}</b></div>
         <div class="item">⚙ Platform: <b>${platform}</b></div>
