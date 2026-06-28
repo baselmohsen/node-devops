@@ -44,5 +44,5 @@ jobs:
       - name: Deploy to Minikube
         run: kubectl set image deployment/node-app node-app=baselmohsen/node-app:${{ github.sha }}
 
-      # - name: Wait for rollout
-      #   run: kubectl rollout status deployment/node-app
+      - name: Wait for rollout
+        run: kubectl rollout status deployment/node-app
