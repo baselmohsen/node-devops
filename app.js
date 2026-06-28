@@ -31,7 +31,7 @@ res.send(`
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps App</title>
+    <title>DevOps App v2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -101,7 +101,7 @@ res.send(`
 
     <div class="status">🟢 RUNNING</div>
 
-    <div class="title">DevOps Node App</div>
+    <div class="title">DevOps Node App v2</div>
 
     <div class="badge">Docker • Kubernetes • CI/CD</div>
 
