@@ -4,7 +4,7 @@ metadata:
   name: node-app
 
 spec:
-  replicas: 5
+  replicas: 3
 
   selector:
     matchLabels:
@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: baselmohsen/node-app:3c626def9fc2d0e1b8380f0f52fcb8a89f229eab
+        image: baselmohsen/node-app:v1
         ports:
         - containerPort: 3000

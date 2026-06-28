@@ -1,3 +1,5 @@
+const express = require('express');
+const os = require('os');
 
 const app = express();
 
@@ -31,7 +33,7 @@ res.send(`
 <html>
 <head>
     <title>DevOps Demo</title>
-    <title>DevOps App version 0.1</title>
+    <title>DevOps App v2</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <style>
