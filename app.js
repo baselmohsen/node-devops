@@ -33,7 +33,7 @@ res.send(`
 <html>
 <head>
     <title>DevOps Demo</title>
-    <title>DevOps App v2</title>
+    <title>DevOps App DevOpsDevOpsDevOpsDevOpsDevOpsDevOpsDevOps v2</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <style>
