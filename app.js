@@ -3,6 +3,26 @@ const os = require('os');
 
 const app = express();
 
+
+
+const app = express();
+
+
+const client = require('prom-client');
+
+client.collectDefaultMetrics();
+
+app.get('/metrics', async (req, res) => {
+    res.set('Content-Type', client.register.contentType);
+    res.end(await client.register.metrics());
+});
+
+
+
+
+
+
+
 /**
  * HEALTH CHECK (مهم جدًا في Kubernetes)
  */
